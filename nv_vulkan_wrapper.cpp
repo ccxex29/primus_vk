@@ -7,7 +7,7 @@ extern "C" VKAPI_ATTR VkResult VKAPI_CALL vk_icdNegotiateLoaderICDInterfaceVersi
 
 
 #ifndef NV_DRIVER_PATH
-#define NV_DRIVER_PATH "/usr/lib/x86_64-linux-gnu/nvidia/current/libGL.so.1"
+#define NV_DRIVER_PATH "/usr/lib/libGLX_nvidia.so.0"
 #endif
 
 class StaticInitialize {
